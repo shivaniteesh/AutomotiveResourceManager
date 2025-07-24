@@ -1,0 +1,38 @@
+.register-container{
+    background-image: url('../components/road-166543_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register{
+    backdrop-filter: blur(20px);
+    height: 50vh;
+    width: 50vh;
+    padding: 20px;
+}
+
+.link{
+    color: blue;
+    text-decoration:underline ;
+}
+.link:hover{
+    scale: 1.1;
+    cursor: grab;
+}
+.rlabel{
+    width:100%;
+    display: block;
+}
+.rinput{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.rbutton{
+    margin: 30px;
+    background-color: rgb(42, 204, 36);
+}

@@ -1,0 +1,36 @@
+.userdetailscontainer{
+    background-image: url('../components/road-166543_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.userdetails{
+    backdrop-filter: blur(20px);
+    height: auto;
+    width: 70vh;
+    padding: 20px;
+}
+.uaddress{
+    height: auto;
+    width: 80%;
+}
+
+.ulabel{
+    width:100%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.uinput{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.ubutton{
+    margin: 30px;
+    background-color: rgb(42, 204, 36);
+}

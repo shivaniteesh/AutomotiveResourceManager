@@ -1,0 +1,187 @@
+.user{
+    position: relative;
+}
+#Bikes,#Cars,#profile1,#feedback,#about{
+    min-height: 100vh;
+    box-shadow: 0 0 12px black;
+}
+#Bikes,#Cars,#profile1{
+    background-image: url('../components/road-166543_1280.jpg');
+    
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: red;
+}
+
+.nav:hover{
+    scale: 1.2;
+    border: 2px solid white;
+    cursor: grab;
+}
+#about{
+    padding: 80px;
+    font-size: larger;
+    background-image: url('../components/road-166543_1280.jpg');
+    
+    background-position: center;
+    background-size: cover;
+}
+.b{
+    margin-top: 90vh;
+   width: 60px;
+}
+#Cars,#Bikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feedback{
+    background-image: url('./complaint.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.maincard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 60px;
+    height: 700px;
+    width: auto;
+    overflow-y: auto;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px black;
+    backdrop-filter: blur(40px);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card-body{
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+}
+.card-title{
+    font-weight: bold;
+}
+.car-actions{
+    margin-top: 15px;
+    
+}
+.btn{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(50, 230, 71, 0.87);
+    cursor: grab;
+}
+.btn:hover{
+    scale: 1.2;
+    cursor: grab;
+}
+.price{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.profile{
+    height: 100%;
+    width: 100%;
+}
+.profilecontainer{
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.userheader h2{
+    color:#333;
+}
+.profile{
+    margin-top: 20px;
+}
+.profileimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff4b5c;
+}
+
+.history, .userdetails{
+    background: #f1f1f1;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: left;
+    width: 90%;
+}
+.userdetails p{
+    margin: 5px 0;
+}
+.history p{
+    text-decoration: underline;
+    color: blue;
+}
+.history p:hover{
+    scale: 0.9;
+    cursor: grab;
+}
+#fb{
+    height: 400px;
+    width: 700px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0px 0px 9px;
+   border-radius:20px ;
+   border-color: #ff4b5c;
+}
+#feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fb label{
+    display: block;
+    margin-top: 7px;
+}
+#fb input,textarea{
+    width: 300px;
+    border-color: #ff4b5c;
+    border-radius: 20px;
+    padding: 9px;
+}
+#fb button{
+    display: block;
+    margin-left: 300px;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    background-color: rgba(105, 225, 53, 0.914);
+}
+#fb input:focus,textarea:focus{
+    border-color: blue;
+}

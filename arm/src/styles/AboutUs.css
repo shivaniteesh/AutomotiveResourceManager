@@ -1,0 +1,36 @@
+.AboutUs{
+    background-color: rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadein 2s normal;
+    height: 100vh;
+    background-image: url('../components/road-166543_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: rotateY(-100px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: rotateY(-50px)
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+#abutton{
+    background-color: #2fff00e3;
+    height: 50px;
+    width: 90px;
+}
+#abutton:hover{
+    scale: 1.3;
+}
